@@ -1,22 +1,7 @@
 <template>
-  <div class="wrapper position-absolute" id="sidebar-div">
+  <div class="wrapper float-left">
     <!-- Sidebar -->
     <nav id="sidebar">
-      <div class="sidebar-header">
-        <div class="col-12 row d-flex align-items-center">
-          <div class="col-4 m-0 p-0">
-            <h4 class="text-light mt-2">Heros</h4>
-          </div>
-          <div class="col-4 m-0 p-0 d-flex justify-content-start">
-            <img
-              style="width: 30px; height: 30px"
-              src="../assets/logo.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
       <ul class="list-unstyled components pt-0">
         <li>
           <a
@@ -88,9 +73,6 @@ export default {
 </script>
 
 <style scoped>
-#sidebar-div {
-  top: 0px;
-}
 .wrapper {
   display: flex;
   width: 100%;
@@ -102,16 +84,16 @@ export default {
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  min-width: 240px;
+  max-width: 240px;
 }
 
 #sidebar.active {
-  margin-left: -250px;
+  margin-left: -240px;
 }
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  min-width: 240px;
+  max-width: 240px;
   min-height: 100vh;
 }
 a[data-toggle='collapse'] {
@@ -127,7 +109,7 @@ a[data-toggle='collapse'] {
 }
 @media (max-width: 768px) {
   #sidebar {
-    margin-left: -250px;
+    margin-left: -240px;
   }
   #sidebar.active {
     margin-left: 0;

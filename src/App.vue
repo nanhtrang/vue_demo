@@ -3,6 +3,7 @@
     <top-bar></top-bar>
     <side-bar></side-bar>
     <router-view/>
+    <input type="text">
   </div>
 </template>
 
